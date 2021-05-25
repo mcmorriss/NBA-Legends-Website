@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1>Greatest NBA Players of All Time</h1>
+    <div class="spacing"></div>
+    <nav id="navbar">
+        <header id="navhead"><b>Navigation:</b></header>
+        <a href="index.html">Home Page</a>
+        <a href="michael.html">Michael Jordan</a>
+        <a href="kobe.html">Kobe Bryant</a>
+        <a href="duncan.html" id="tima">Tim Duncan</a>
+    </nav>
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="carousel/spurs.jpg" class="d-block w-100" alt="" width="330px" height="229px">
+          </div>
+          <div class="carousel-item">
+            <img src="carousel/fade.jpg" class="d-block w-100" alt="..." width="229px" height="229px">
+          </div>
+          <div class="carousel-item">
+            <img src="carousel/clutch.jpg" class="d-block w-100" alt="..." width="384px" height="229px">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    <div class="bio" id="form">
+        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+        <fieldset>
+            <label><b><u>Who Is Your Favorite NBA Player?</u></b>
+                <br />
+              <br />
+                <label>
+                <input type="radio" name="nba" value="michael jordan" />Michael Jordan</label>
+                <br />
+                <br />
+                <label>
+                <input type="radio" name="nba" value="kobe bryant" />Kobe Bryant</label>
+                <br />
+                <br />
+                <label>
+                <input type="radio" name="nba" value ="tim duncan" />Tim Duncan</label>
+                <br />
+                <br />
+                <input type="submit" value="Submit">
+              <br />
+              <br />
+              <br />
+              <label>Other Player: 
+              <input type="text" name="player"></label>
+              <br />
+              <br />
+              
+              <input type="submit" value="Submit">
+            </label>
+              </fieldset>
+        </form>
+    </div>
+
+    <div class="bio" id="about">
+        <h1 class="biohead" id="abouth1">About this site: </h1>
+        <p class="words" id="about">This site is dedicated to the most talented and greatest individual players to ever play basketball professionally.
+            Throughout this website you will visit several subpages that are composed of what I believe to be 3 of the best basketball 
+            players of all time. These 3 players are Michael Jordan, Kobe Bryant, and Tim Duncan. All three of these incredible players
+            built long and eventful careers all within the same franchise and brought a multitude of championships and accolades to their 
+            respective cities and organizations. Enjoy the free information on this site and visit the external links on each subpage to 
+            learn even more about these amazing players. All sources are cited below the images on the home page.
+        </p>
+    </div>
+
+    <div class="bio" id="lastpic">
+        <img src="carousel/comparison.png" alt="" width="300px" height="326px">
+        <caption><i><b>-- A graphical representation displaying the career accomplishments of the 3 players listed in this website.</b></i></caption>
+    </div>
+
+    <br />
+    
+
+
+    <div class="box">
+    <div class="carousel">
+        <div class="carousel__images">
+            <img src="carousel/spurs.jpg" alt="" width="330px" height="229px">
+            <img src="carousel/nbalogo.jpg" alt="" width="106px" height="229px">
+            <img src="carousel/mj.jpg" alt="" width="210px" height="229px">
+            <img src="carousel/nbalogo.jpg" alt="" width="106px" height="229px">
+            <img src="carousel/clutch.jpg" alt="" width="384px" height="229px">
+        </div>
+        <button class="carousel_button" id="next">></button>
+    </div>
+    </div>
+
+    <div class="middle">
+        <fieldset>
+            <header><u><b>Sources cited for photographs and information:</b></u></header>
+            <ul>
+                <li>https://www.poundingtherock.com/2015/2/12/7486749/tim-duncan-championship-celebration-immortalized</li>
+                <li>https://www.pinterest.com/pin/527976756285852393/</li>
+                <li>https://www.campaignlive.com/article/6-brand-lessons-michael-jordans-last-dance/1684290</li>
+                <li>https://bleacherreport.com/articles/591750-kobe-bryant-got-your-tickets-to-the-gun-show</li>
+                <li>https://www.pinterest.com/charliefal/tim-duncan/</li>
+                <li>https://twitter.com/calseville/status/478506902025142272</li>
+                <li>https://en.wikipedia.org/wiki/Michael_Jordan</li>
+                <li>https://en.wikipedia.org/wiki/Kobe_Bryant</li>
+                <li>https://en.wikipedia.org/wiki/Tim_Duncan</li>
+
+        </fieldset>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>
